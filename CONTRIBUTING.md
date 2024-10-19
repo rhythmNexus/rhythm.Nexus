@@ -53,7 +53,7 @@ b. **Do NOT** update your PR from master. We will do this for you when we merge 
 All PRs will be reviewed. You may be asked to change some things before merging. This is normal.
 
 ## Licensing
-By contributing, you agree that your contributions will be licensd under the MIT License.
+By contributing, you agree that your contributions will be licensed under the MIT License.
 
 ## Request Changes to CONTRIBUTING.md
 Please open a discussion to change CONTRIBUTING.md.
