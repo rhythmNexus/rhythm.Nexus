@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "rhythmNexus.sln",
+    "projects": [
+      "rhythmNexus.Game\\rhythmNexus.Game.csproj",
+      "rhythmNexus.Resources\\rhythmNexus.Resources.csproj",
+      "rhythmNexus.iOS\\rhythmNexus.iOS.csproj"
+    ]
+  }
+}
