@@ -33,7 +33,7 @@ dotnet run --project rhythmNexus.Desktop
 ### Mobile
 Currently no plans for mobile, but can be a future goal.
 
-## Contibuting
+## Contributing
 For small changes, open a pull request, and we will review it. For larger, more game changing changes, please open a discussion.
 Also see the [Contributing Guidelines](CONTRIBUTING.md).
 
