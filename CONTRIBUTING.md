@@ -14,7 +14,10 @@ rhythm.Nexus is a game driven by the community, and every contribution changes t
 - Basic Knowledge of C#
 - Familiar to the git workflow
 ### Code Editor
-You may use any code editor you like, but it is recommended to use Visual Studio, JetBrains Rider, Or Visual Studio Code with the extensions EditorConfig and C# Dev Kit.
+You may use any code editor you like, but it is recommended to use 
+- Visual Studio
+- JetBrains Rider
+- Visual Studio Code with the extensions EditorConfig and C# Dev Kit.
 
 ## Code Quality/Standards
 ## Variables
@@ -46,8 +49,8 @@ private void foo()
 3. Commit your changes with clear messages.
 4. Open a pull request and link any related issues or discussions.
 ### When Submitting Changes
-a. **Do NOT** merge from the forked repo's master.  
-b. **Do NOT** update your PR from master. We will do this for you when we merge your PR.
+- **Do NOT** merge from the forked repo's master.  
+- **Do NOT** update your PR from master. We will do this for you when we merge your PR.
 
 ## Reviewing
 All PRs will be reviewed. You may be asked to change some things before merging. This is normal.
