@@ -30,13 +30,13 @@ The first word is always lowercase. And the words beyond that, begin with upperc
 Leave comments on anything you may think that other people may not understand. i.e. nexus abstraction, etc.
 ### Curly Brackets
 For curly brackets, please use the following syntax:
-```C#
+```csharp
 private void foo() {
   bar()
 }
 ```
 and avoid the following syntax:
-```C#
+```csharp
 private void foo()
 {
   bar()
