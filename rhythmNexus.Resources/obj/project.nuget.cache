@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dMDD3qY7Pm2yO87sTBNUz5/SBK8FpgRBEaM6zVn7tvXjAY3rVwBEc62F4A7CwIT2ZqKksr1zLPzijNJx4o8hyg==",
+  "success": true,
+  "projectFilePath": "/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/rhythmNexus.Resources.csproj",
+  "expectedPackageFiles": [
+    "/home/shin/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

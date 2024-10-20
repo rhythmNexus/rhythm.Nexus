@@ -1,0 +1,14 @@
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/bin/Debug/net8.0/rhythmNexus.Resources.deps.json
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/bin/Debug/net8.0/rhythmNexus.Resources.dll
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/bin/Debug/net8.0/rhythmNexus.Resources.pdb
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/bin/Debug/net8.0/rhythmNexus.Resources.xml
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.GeneratedMSBuildEditorConfig.editorconfig
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.AssemblyInfoInputs.cache
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.AssemblyInfo.cs
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.csproj.CoreCompileInputs.cache
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.sourcelink.json
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.dll
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/refint/rhythmNexus.Resources.dll
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.xml
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/rhythmNexus.Resources.pdb
+/home/shin/random projects/osu-framework/rhythm.Nexus/rhythmNexus.Resources/obj/Debug/net8.0/ref/rhythmNexus.Resources.dll
