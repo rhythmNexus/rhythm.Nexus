@@ -1,42 +1,39 @@
 using osu.Framework.Graphics;
-using osu.Framework.Graphics.UserInterface;
 using osu.Framework.Graphics.Containers;
-using osu.Framework.Graphics.Sprites;
-using osu.Framework.Graphics.Textures;
 using osuTK;
 using osuTK.Graphics;
+using rhythmNexus.Game.Graphics;
 
 public partial class MainMenu : CompositeDrawable {
     public MainMenu() {
         // Create a container to contain the buttons
         var buttonContainer = new Container {
-            Size = new Vector2(200, 50),
             Anchor = Anchor.Centre,
             Origin = Anchor.Centre,
             Position = new Vector2(0, 0)
         };
 
-        buttonContainer.Add(new BasicButton {
+        buttonContainer.Add(new RoundedButton {
             Text = "Start",
             Action = null,
-            Size = new Vector2(160, 40),
-            Position = new Vector2(0, 0),
+            Size = new Vector2(240, 50),
+            Position = new Vector2(0, 270),
             Colour = Color4.LightGreen
         });
 
-        buttonContainer.Add(new BasicButton {
+        buttonContainer.Add(new RoundedButton {
             Text = "Settings",
             Action = null,
-            Size = new Vector2(160, 40),
-            Position = new Vector2(180, 0),
+            Size = new Vector2(150, 50),
+            Position = new Vector2(245, 270),
             Colour = Color4.Aqua
         });
 
-        buttonContainer.Add(new BasicButton {
+        buttonContainer.Add(new RoundedButton {
             Text = "Exit",
             Action = null,
-            Size = new Vector2(160, 40),
-            Position = new Vector2(-180, 0),
+            Size = new Vector2(100, 50),
+            Position = new Vector2(-220, 270),
             Colour = Color4.HotPink
         });
 

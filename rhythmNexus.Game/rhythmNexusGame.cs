@@ -3,11 +3,9 @@ using osu.Framework.Graphics;
 using osu.Framework.Screens;
 using osu.Framework.IO.Stores;
 using rhythmNexus.Game.Screens.MainMenuScreen;
-using osu.Framework.Graphics.Textures;
-using JetBrains.Annotations;
-using SharpGen.Runtime.Win32;
 
-namespace rhythmNexus.Game {
+namespace rhythmNexus.Game
+{
     public partial class rhythmNexusGame : rhythmNexusGameBase {
         private ScreenStack screenStack;
         [BackgroundDependencyLoader]
