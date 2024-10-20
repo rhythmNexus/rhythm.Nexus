@@ -18,7 +18,7 @@ public partial class MainMenu : CompositeDrawable {
 
         buttonContainer.Add(new BasicButton {
             Text = "Start",
-            Action = startGame,
+            Action = null,
             Size = new Vector2(160, 40),
             Position = new Vector2(0, 0),
             Colour = Color4.LightGreen
@@ -26,7 +26,7 @@ public partial class MainMenu : CompositeDrawable {
 
         buttonContainer.Add(new BasicButton {
             Text = "Settings",
-            Action = openSettings,
+            Action = null,
             Size = new Vector2(160, 40),
             Position = new Vector2(180, 0),
             Colour = Color4.Aqua
@@ -34,25 +34,12 @@ public partial class MainMenu : CompositeDrawable {
 
         buttonContainer.Add(new BasicButton {
             Text = "Exit",
-            Action = exitGame,
+            Action = null,
             Size = new Vector2(160, 40),
             Position = new Vector2(-180, 0),
             Colour = Color4.HotPink
         });
 
         AddInternal(buttonContainer);
-    }
-
-
-    private void startGame() {
-
-    }
-
-    private void openSettings() {
-
-    }
-
-    private void exitGame() {
-
     }
 }
