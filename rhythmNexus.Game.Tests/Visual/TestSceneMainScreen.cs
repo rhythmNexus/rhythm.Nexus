@@ -1,6 +1,7 @@
 using osu.Framework.Graphics;
 using osu.Framework.Screens;
 using NUnit.Framework;
+using rhythmNexus.Game.Screens.MainMenuScreen;
 
 namespace rhythmNexus.Game.Tests.Visual
 {
@@ -12,7 +13,7 @@ namespace rhythmNexus.Game.Tests.Visual
 
         public TestSceneMainScreen()
         {
-            Add(new ScreenStack(new MainScreen()) { RelativeSizeAxes = Axes.Both });
+            Add(new ScreenStack(new MainMenuScreen()) { RelativeSizeAxes = Axes.Both });
         }
     }
 }
