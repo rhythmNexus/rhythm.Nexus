@@ -2,7 +2,7 @@
 using osu.Framework.Graphics;
 using osu.Framework.Screens;
 using osu.Framework.IO.Stores;
-using rhythmNexus.Game.Screens.MainMenuScreen;
+using rhythmNexus.Game.Screens;
 
 namespace rhythmNexus.Game
 {
@@ -25,7 +25,7 @@ namespace rhythmNexus.Game
         protected override void LoadComplete() {
             base.LoadComplete();
 
-            screenStack.Push(new MainMenuScreen());
+            screenStack.Push(new MainMenu());
         }
     }
 }
