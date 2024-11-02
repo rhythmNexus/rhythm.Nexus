@@ -5,7 +5,7 @@ Built on top of the [osu!framework](https://github.com/ppy/osu-framework) by pep
 Currently rhythm.Nexus is a work-in-progress game, and currently just an idea.
 
 ## Features
-- Travel through different Nexes, each representing a unique genre of music.
+- Travel through different Universes, each containing Worlds, which contain Nexes. Nexes are different genres of music.
 - Dynamic gameplay with evolving challenges
 - Progression system to unlock abilities and new levels.
 
