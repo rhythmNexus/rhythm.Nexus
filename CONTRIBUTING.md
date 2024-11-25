@@ -31,13 +31,13 @@ Leave comments on anything you may think that other people may not understand. i
 ### Curly Brackets
 For curly brackets, please use the following syntax:
 ```csharp
-private void foo() {
+void foo() {
   bar()
 }
 ```
 and avoid the following syntax:
 ```csharp
-private void foo()
+void foo()
 {
   bar()
 }
