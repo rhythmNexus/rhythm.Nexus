@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rhythmNexus.Game.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+478b331357a74bbf550e79fbf895c8dc7c663700")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb6755a8271828c4dcff1bec9df1a4d23015b17e")]
 [assembly: System.Reflection.AssemblyProductAttribute("rhythmNexus.Game.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rhythmNexus.Game.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

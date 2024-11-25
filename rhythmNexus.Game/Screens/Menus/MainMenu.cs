@@ -1,58 +1,64 @@
+using System.Security.Cryptography.Pkcs;
+using osu.Framework.Allocation;
 using osu.Framework.Graphics;
-using osu.Framework.Graphics.UserInterface;
 using osu.Framework.Graphics.Containers;
 using osu.Framework.Graphics.Sprites;
 using osu.Framework.Graphics.Textures;
+using osu.Framework.Screens;
 using osuTK;
 using osuTK.Graphics;
+using rhythmNexus.Game.Graphics;
 
-public partial class MainMenu : CompositeDrawable {
-    public MainMenu() {
+namespace rhythmNexus.Game.Screens {
+    public partial class MainMenu : Screen {
         // Create a container to contain the buttons
-        var buttonContainer = new Container {
-            Size = new Vector2(200, 50),
-            Anchor = Anchor.Centre,
-            Origin = Anchor.Centre,
-            Position = new Vector2(0, 0)
-        };
+        private Sprite logoSprite;
 
-        buttonContainer.Add(new BasicButton {
-            Text = "Start",
-            Action = startGame,
-            Size = new Vector2(160, 40),
-            Position = new Vector2(0, 0),
-            Colour = Color4.LightGreen
-        });
+        [BackgroundDependencyLoader]
+        private void load(TextureStore textures) {
+            var logoTexture = textures.Get("logo.png");
 
-        buttonContainer.Add(new BasicButton {
-            Text = "Settings",
-            Action = openSettings,
-            Size = new Vector2(160, 40),
-            Position = new Vector2(180, 0),
-            Colour = Color4.Aqua
-        });
+            logoSprite = new Sprite {
+                Texture = logoTexture,
+                Anchor = Anchor.TopCentre,
+                Origin = Anchor.TopCentre,
+                RelativeSizeAxes = Axes.None,
+                Size = new Vector2(200, 200),
+                Position = new Vector2(0,-100)
+            };
 
-        buttonContainer.Add(new BasicButton {
-            Text = "Exit",
-            Action = exitGame,
-            Size = new Vector2(160, 40),
-            Position = new Vector2(-180, 0),
-            Colour = Color4.HotPink
-        });
+            var buttonContainer = new Container {
+                Anchor = Anchor.Centre,
+                Origin = Anchor.Centre,
+                Position = new Vector2(0, 0)
+            };
 
-        AddInternal(buttonContainer);
-    }
+            buttonContainer.Add(new RoundedButton {
+                Text = "Start",
+                Action = null,
+                Size = new Vector2(240, 50),
+                Position = new Vector2(0, 270),
+                Colour = Color4.LightGreen
+            });
 
+            buttonContainer.Add(new RoundedButton {
+                Text = "Settings",
+                Action = null,
+                Size = new Vector2(150, 50),
+                Position = new Vector2(245, 270),
+                Colour = Color4.Aqua
+            });
 
-    private void startGame() {
+            buttonContainer.Add(new RoundedButton {
+                Text = "Exit",
+                Action = null,
+                Size = new Vector2(100, 50),
+                Position = new Vector2(-220, 270),
+                Colour = Color4.HotPink
+            });
 
-    }
-
-    private void openSettings() {
-
-    }
-
-    private void exitGame() {
-
+            AddInternal(logoSprite);
+            AddInternal(buttonContainer);
+        }
     }
 }

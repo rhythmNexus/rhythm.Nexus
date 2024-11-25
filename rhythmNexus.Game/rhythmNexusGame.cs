@@ -2,12 +2,10 @@
 using osu.Framework.Graphics;
 using osu.Framework.Screens;
 using osu.Framework.IO.Stores;
-using rhythmNexus.Game.Screens.MainMenuScreen;
-using osu.Framework.Graphics.Textures;
-using JetBrains.Annotations;
-using SharpGen.Runtime.Win32;
+using rhythmNexus.Game.Screens;
 
-namespace rhythmNexus.Game {
+namespace rhythmNexus.Game
+{
     public partial class rhythmNexusGame : rhythmNexusGameBase {
         private ScreenStack screenStack;
         [BackgroundDependencyLoader]
@@ -27,7 +25,7 @@ namespace rhythmNexus.Game {
         protected override void LoadComplete() {
             base.LoadComplete();
 
-            screenStack.Push(new MainMenuScreen());
+            screenStack.Push(new MainMenu());
         }
     }
 }
